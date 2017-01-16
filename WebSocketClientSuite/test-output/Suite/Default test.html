@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 27 18:31:11 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6907 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.rummycircle.com.tests.CopyOfFMGTest.fmgTest()'><b>fmgTest</b><br>Test class: com.rummycircle.com.tests.CopyOfFMGTest<br>Parameters: 0, 301259, 0, 0, 1, 100, 2, 10, 4000, 1, 192.168.110.108, 0, false, true, false, SSID4f86a962-bf66-47fd-bb14-2d2a593d433a, TE<br/>
+<a href="#Output-944140566" onClick='toggleBox("Output-944140566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-944140566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-944140566">
+Sending Message : {"type":"fmgrequest","value":{"entryFee":4000,"fmgOnTable":false,"interimTableSettlement":false,"prizeType":1,"ipAddress":"192.168.110.108","source":"301259","sessionid":"SSID4f86a962-bf66-47fd-bb14-2d2a593d433a","systime":1482843674336,"dest":"TE","mpid":0,"noOfPlayer":2,"classID":2097161,"receiverid":0,"prizePerPoint":10,"includeInProgress":1,"oldTableId":0,"tournamentid":0,"emptyTable":true,"id":0,"formatType":100,"ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"handshakeresponse","value":{"classID":2097156,"receiverid":0,"id":0,"systime":1482843703585,"ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"buyinsucc","value":{"classID":1048697,"receiverid":3542733,"aaid":3542733,"rebuy":false,"id":0,"systime":1482843703636,"dest":"301259","ackreq":1,"first21cardpracticegame":false,"playerid":301259}}<br/>
+Received Response : {"type":"fmgresponse","value":{"fmgOnTable":false,"classID":2097162,"receiverid":3542733,"aaid":3542733,"tournamentId":0,"errorMessage":"","maxplayer":0,"id":0,"systime":1482843703602,"ackreq":0,"playerid":301259,"status":3}}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.rummycircle.com.tests.CopyOfFMGTest@2db7a79b</td></tr>
+<tr>
+<td title='com.rummycircle.com.tests.CopyOfFMGTest.heartBeatTest()'><b>heartBeatTest</b><br>Test class: com.rummycircle.com.tests.CopyOfFMGTest<br/>
+<a href="#Output-1440621772" onClick='toggleBox("Output-1440621772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1440621772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1440621772">
+Sending Message : {"type":"heartbeat","value":{"classID":2097153,"receiverid":3542733,"tournamentid":3542733,"sessionid":"SSID4f86a962-bf66-47fd-bb14-2d2a593d433a","id":0,"systime":1482843677378,"dest":"TE","ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"heartbeatres","value":{"classID":2097154,"receiverid":3542733,"lastrecmsgid":0,"id":0,"systime":1482843706149,"ackreq":0,"playerid":301259}}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.rummycircle.com.tests.CopyOfFMGTest@2db7a79b</td></tr>
+<tr>
+<td title='com.rummycircle.com.tests.CopyOfFMGTest.leaveTableTest()'><b>leaveTableTest</b><br>Test class: com.rummycircle.com.tests.CopyOfFMGTest<br/>
+<a href="#Output-821576394" onClick='toggleBox("Output-821576394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821576394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821576394">
+Sending Message : {"type":"leavetable","value":{"gameid":0,"classID":1048598,"receiverid":3542733,"tournamentid":3542733,"sessionid":"SSID4f86a962-bf66-47fd-bb14-2d2a593d433a","id":0,"systime":1482843677892,"dest":"TE","ackreq":0,"matchid":0,"playerid":301259,"mplayerid":301259}}<br/>
+Received Response : {"type":"seatsetup","value":{"classID":1048651,"receiverid":3542733,"aaid":3542733,"id":0,"systime":1482843706684,"dest":"301259","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":0,"id":0,"seatedout":false,"state":0},{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":0,"id":1,"seatedout":false,"state":0}],"ackreq":0,"playerid":0}}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.rummycircle.com.tests.CopyOfFMGTest@2db7a79b</td></tr>
+<tr>
+<td title='com.rummycircle.com.tests.CopyOfFMGTest.readyTest()'><b>readyTest</b><br>Test class: com.rummycircle.com.tests.CopyOfFMGTest<br/>
+<a href="#Output-477376212" onClick='toggleBox("Output-477376212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-477376212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-477376212">
+Sending Message : {"type":"ready","value":{"classID":1048603,"receiverid":3542733,"tournamentid":3542733,"sessionid":"SSID4f86a962-bf66-47fd-bb14-2d2a593d433a","id":0,"systime":1482843676363,"dest":"TE","ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"aainfo","value":{"aanum":1,"progressbarmax":false,"multiplier":2,"gproperty":{"sitouttimeout":30000,"middledropcfp":40,"noofcardtodeal":13,"extratimechunk":10000,"noofdeck":2,"movetime":25000,"missedmovesdrop":40,"noofdubleestobesafe21cardcfp":0,"settlementtype":1,"prizetype":1,"noofjokerstobesafe21cardcfp":0,"printedjokersperdeck":1,"blockedwords":0,"maxplayer":2,"rptplmobserver":0,"autoemail":false,"dealbetweentime":60000,"safescoreonplayerdeclaration21cardcfp":0,"mvtimefirstplayer":10000,"cardperpureseq":3,"noofjokerstodeclare21cardcfp":0,"jokertype":2,"autoplaytimeout":10000,"extratime":30000,"nooftunnelastodeclare21cardcfp":0,"observerchat":0,"tosstimeout":5000,"noofdubleestodeclare21cardcfp":0,"classID":1048681,"timebtwround":0,"fullcountcfp":80,"declaretime":30000,"maxbuyinmultiplier21cardcfp":0,"firstdropcfp":20,"maxpointvalue21cardcfp":0,"minpointvalue21cardcfp":0},"systime":1482843705147,"dest":"301259","classID":1048680,"receiverid":3542733,"rewardpointsvalue":0,"prizetype":1,"aaid":3542733,"gametype":"RUMMY","tproperty":{"typezeroentryfeelimit":25,"entryfee":0,"servicefee":0,"minbuyin":800,"splittimeout":15000,"buyintimeout":20000,"servicefeetype":1,"countdwnstartgame":30000,"settlementtype":1,"splitallowed":false,"rejoinallowed":false,"classID":1048682,"pointvalue":10,"poolmaxscore":0,"mindropsforsplit":1,"prizetype":1,"name":"NGPcfp_practice_12732006","maxbuyin":8000,"maxplayer":2,"countinbtwmatch":10000,"mindealtoplay":0,"rejointimeout":20000},"id":0,"ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"aastatus","value":{"roundnumber":0,"systime":1482843705149,"tiebreaker":false,"dest":"301259","aastatus":4,"dealnumber":0,"classID":1048683,"receiverid":3542733,"aaid":3542733,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}<br/>
+Received Response : {"type":"seatsetup","value":{"classID":1048651,"receiverid":3542733,"aaid":3542733,"id":0,"systime":1482843705149,"dest":"301259","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":4000,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus25","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301259,"timeofreg":1482843703602,"id":301259,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":0,"id":1,"seatedout":false,"state":0}],"ackreq":0,"playerid":0}}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.rummycircle.com.tests.CopyOfFMGTest@2db7a79b</td></tr>
+<tr>
+<td title='com.rummycircle.com.tests.CopyOfFMGTest.setUpTest()'><b>setUpTest</b><br>Test class: com.rummycircle.com.tests.CopyOfFMGTest<br>Parameters: 2<br/>
+<a href="#Output-1072377306" onClick='toggleBox("Output-1072377306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1072377306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1072377306">
+Sending Message : {"type":"setup","value":{"classID":1048611,"receiverid":3542733,"fmgparams":"","tournamentid":3542733,"sessionid":"SSID4f86a962-bf66-47fd-bb14-2d2a593d433a","id":0,"systime":1482843675846,"clientvariant":2,"dest":"TE","ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"autodropcancelsuccess","value":{"classID":1048688,"receiverid":3542733,"aaid":3542733,"id":0,"systime":1482843704653,"dest":"301259","ackreq":0,"playerid":301259}}<br/>
+Received Response : {"type":"setupres","value":{"chatblocked":false,"mp":2,"bgimgurl":"","systime":1482843704654,"dest":"301259","swfmainpath":"https://try-static.rummycircle.com/pkr/cfprummy.swf","conifgfilepath":"https://try-static.rummycircle.com/assets/Classic.xml","classID":1048653,"receiverid":3542733,"aaid":3542733,"heartBeat":2000,"tableid":3542733,"breplayer":false,"maxplayer":2,"mttChatBlock":false,"id":0,"showfmg":false,"ackreq":0,"playerid":301259}}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.rummycircle.com.tests.CopyOfFMGTest@2db7a79b</td></tr>
+</table><p>
+</body>
+</html>

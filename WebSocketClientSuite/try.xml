@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<parameter name="url" value="ws://10.14.21.178:8442"></parameter>
+	<parameter name="receiverID" value="0"></parameter>
+	<parameter name="playerID" value="301259"></parameter>
+	<parameter name="mpid" value="0"></parameter>
+	<parameter name="excludeTableId" value="0"></parameter>
+	<parameter name="prizeType" value="1"></parameter>
+	<parameter name="formatType" value="100"></parameter>
+	<parameter name="noOfPlayer" value="2"></parameter>
+	<parameter name="prizePerPoint" value="10"></parameter>
+	<parameter name="entryFee" value="4000"></parameter>
+	<parameter name="includeInProgress" value="1"></parameter>
+	<parameter name="ipAddress" value="192.168.110.108"></parameter>	
+	<parameter name="oldTableId" value="0"></parameter>
+	<parameter name="fmgOnTable" value="false"></parameter>
+	<parameter name="emptyTable" value="true"></parameter>
+	<parameter name="interimTableSettlement" value="false"></parameter>
+	<parameter name="clientvariant" value="2"></parameter>
+	<parameter name="sessionId" value="SSID0482dba5-6a96-4848-a55b-93820e11774f"></parameter>
+	<parameter name="destination" value="TE"></parameter>
+	<test name="FMGTest">
+		<classes>
+			<class name="com.rummycircle.com.tests.FMGTest" />
+		</classes>
+	</test>
+</suite>

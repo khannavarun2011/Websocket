@@ -1,0 +1,799 @@
+Connected to : /10.14.24.139
+EXECUTED ACTION : fmg PLAYER : 301248
+Sending Message: {"type":"fmgrequest","value":{"entryFee":21200,"fmgOnTable":false,"interimTableSettlement":false,"prizeType":1,"ipAddress":"192.168.110.108","source":"301248","sessionid":"SSID92fb7513-c837-4c6a-8fbf-a80c038376a7","systime":1484565529039,"dest":"TE","mpid":0,"noOfPlayer":2,"classID":2097161,"receiverid":0,"prizePerPoint":53,"includeInProgress":1,"oldTableId":0,"tournamentid":0,"emptyTable":true,"id":0,"formatType":100,"ackreq":0,"playerid":301248}}
+RESPONSE RECEIVED : 301248 : {"type":"handshakeresponse","value":{"classID":2097156,"receiverid":0,"id":0,"systime":1484565533282,"ackreq":0,"playerid":301248}}
+fmg For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"startgametimer","value":{"rejoiningplayerarray":[],"timer":10000,"classID":1048660,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565533323,"dest":"301248","ackreq":1,"playerid":301248}}
+fmg For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"buyinsucc","value":{"classID":1048697,"receiverid":3201888,"aaid":3201888,"rebuy":false,"id":0,"systime":1484565533324,"dest":"301248","ackreq":1,"first21cardpracticegame":false,"playerid":301248}}
+fmg For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565533324,"tiebreaker":false,"dest":"301248","aastatus":5,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+fmg For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"fmgresponse","value":{"fmgOnTable":false,"classID":2097162,"receiverid":3201888,"aaid":3201888,"tournamentId":0,"errorMessage":"","maxplayer":0,"id":0,"systime":1484565533284,"ackreq":0,"playerid":301248,"status":4}}
+fmg For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+EXECUTED ACTION : fmg PLAYER : 301249
+Sending Message: {"type":"fmgrequest","value":{"entryFee":21200,"fmgOnTable":false,"interimTableSettlement":false,"prizeType":1,"ipAddress":"192.168.110.108","source":"301249","sessionid":"SSIDedc6935f-46e9-4693-b3bb-5f950fa41246","systime":1484565530002,"dest":"TE","mpid":0,"noOfPlayer":2,"classID":2097161,"receiverid":3201888,"prizePerPoint":53,"includeInProgress":1,"oldTableId":0,"tournamentid":3201888,"emptyTable":true,"id":0,"formatType":100,"ackreq":0,"playerid":301249}}
+RESPONSE RECEIVED : 301249 : {"type":"handshakeresponse","value":{"classID":2097156,"receiverid":3201888,"id":0,"systime":1484565533754,"ackreq":0,"playerid":301249}}
+fmg For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"buyinsucc","value":{"classID":1048697,"receiverid":3201889,"aaid":3201889,"rebuy":false,"id":0,"systime":1484565533823,"dest":"301249","ackreq":1,"first21cardpracticegame":false,"playerid":301249}}
+fmg For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"fmgresponse","value":{"fmgOnTable":false,"classID":2097162,"receiverid":3201889,"aaid":3201889,"tournamentId":0,"errorMessage":"","maxplayer":0,"id":0,"systime":1484565533779,"ackreq":0,"playerid":301249,"status":3}}
+fmg For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565533825,"tiebreaker":false,"dest":"301249","aastatus":4,"dealnumber":0,"classID":1048683,"receiverid":3201889,"aaid":3201889,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+fmg For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+EXECUTED ACTION : setup PLAYER : 301248
+Sending Message: {"type":"setup","value":{"classID":1048611,"receiverid":3201888,"fmgparams":"","tournamentid":3201888,"sessionid":"SSID92fb7513-c837-4c6a-8fbf-a80c038376a7","id":0,"systime":1484565531001,"clientvariant":2,"dest":"TE","ackreq":0,"playerid":301248}}
+RESPONSE RECEIVED : 301248 : {"type":"autodropcancelsuccess","value":{"classID":1048688,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565534759,"dest":"301248","ackreq":0,"playerid":301248}}
+setup For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"setupres","value":{"chatblocked":false,"mp":2,"bgimgurl":"","systime":1484565534759,"dest":"301248","swfmainpath":"https://try-static.rummycircle.com/pkr/cfprummy.swf","conifgfilepath":"https://stage-static.rummycircle.com/assets/Classic_v1.xml","classID":1048653,"receiverid":3201888,"aaid":3201888,"heartBeat":2000,"tableid":3201888,"breplayer":false,"maxplayer":2,"mttChatBlock":false,"id":0,"showfmg":false,"ackreq":0,"playerid":301248}}
+setup For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"disconprotectionpref","value":{"messageshown":true,"ischecked":1,"systime":1484565534759,"dest":"301248","mtt":0,"pointsrummy21":0,"classID":1048733,"dealsrummy":0,"receiverid":3201888,"pointsrummy":0,"poolrummy":0,"dppflag":true,"id":0,"ackreq":0,"playerid":301248}}
+setup For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"autorebuyinpref","value":{"autorebuyinenabled":false,"classID":1048752,"receiverid":3201888,"id":0,"systime":1484565534760,"dest":"301248","ackreq":0,"autorebuyindonotshow":false,"playerid":301248}}
+EXECUTED ACTION : setup PLAYER : 301249
+Sending Message: {"type":"setup","value":{"classID":1048611,"receiverid":3201888,"fmgparams":"","tournamentid":3201888,"sessionid":"SSIDedc6935f-46e9-4693-b3bb-5f950fa41246","id":0,"systime":1484565532002,"clientvariant":2,"dest":"TE","ackreq":0,"playerid":301249}}
+RESPONSE RECEIVED : 301249 : {"type":"autodropcancelsuccess","value":{"classID":1048688,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565535761,"dest":"301249","ackreq":0,"playerid":301249}}
+setup For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"setupres","value":{"chatblocked":false,"mp":2,"bgimgurl":"","systime":1484565535762,"dest":"301249","swfmainpath":"https://try-static.rummycircle.com/pkr/cfprummy.swf","conifgfilepath":"https://stage-static.rummycircle.com/assets/Classic_v1.xml","classID":1048653,"receiverid":3201888,"aaid":3201888,"heartBeat":2000,"tableid":3201888,"breplayer":false,"maxplayer":2,"mttChatBlock":false,"id":0,"showfmg":false,"ackreq":0,"playerid":301249}}
+setup For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"disconprotectionpref","value":{"messageshown":true,"ischecked":1,"systime":1484565535762,"dest":"301249","mtt":0,"pointsrummy21":0,"classID":1048733,"dealsrummy":0,"receiverid":3201888,"pointsrummy":0,"poolrummy":0,"dppflag":true,"id":0,"ackreq":0,"playerid":301249}}
+setup For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"autorebuyinpref","value":{"autorebuyinenabled":false,"classID":1048752,"receiverid":3201888,"id":0,"systime":1484565535763,"dest":"301249","ackreq":0,"autorebuyindonotshow":false,"playerid":301249}}
+EXECUTED ACTION : ready PLAYER : 301248
+Sending Message: {"type":"ready","value":{"classID":1048603,"receiverid":3201888,"tournamentid":3201888,"sessionid":"SSID92fb7513-c837-4c6a-8fbf-a80c038376a7","id":0,"systime":1484565533003,"dest":"TE","ackreq":0,"playerid":301248}}
+RESPONSE RECEIVED : 301248 : {"type":"aainfo","value":{"aanum":1,"progressbarmax":false,"multiplier":2,"gproperty":{"sitouttimeout":30000,"middledropcfp":40,"noofcardtodeal":13,"extratimechunk":10000,"noofdeck":2,"movetime":25000,"missedmovesdrop":40,"noofdubleestobesafe21cardcfp":0,"settlementtype":1,"prizetype":1,"noofjokerstobesafe21cardcfp":0,"printedjokersperdeck":1,"blockedwords":0,"maxplayer":2,"rptplmobserver":0,"autoemail":false,"dealbetweentime":60000,"safescoreonplayerdeclaration21cardcfp":0,"mvtimefirstplayer":35000,"cardperpureseq":3,"noofjokerstodeclare21cardcfp":0,"jokertype":2,"autoplaytimeout":10000,"extratime":30000,"nooftunnelastodeclare21cardcfp":0,"observerchat":0,"tosstimeout":5000,"noofdubleestodeclare21cardcfp":0,"classID":1048681,"timebtwround":0,"fullcountcfp":80,"declaretime":35000,"maxbuyinmultiplier21cardcfp":0,"firstdropcfp":20,"maxpointvalue21cardcfp":0,"minpointvalue21cardcfp":0},"systime":1484565536749,"dest":"301248","classID":1048680,"receiverid":3201888,"rewardpointsvalue":0,"prizetype":1,"aaid":3201888,"gametype":"RUMMY","tproperty":{"typezeroentryfeelimit":25,"entryfee":0,"servicefee":0,"minbuyin":4240,"splittimeout":15000,"buyintimeout":20000,"servicefeetype":1,"countdwnstartgame":10000,"settlementtype":1,"splitallowed":false,"rejoinallowed":false,"classID":1048682,"pointvalue":53,"poolmaxscore":0,"mindropsforsplit":1,"prizetype":1,"name":"doNotUseAutomation_ptr_2_11069693","maxbuyin":42400,"maxplayer":2,"countinbtwmatch":30000,"mindealtoplay":0,"rejointimeout":20000},"id":0,"ackreq":0,"playerid":301248}}
+RESPONSE RECEIVED : 301248 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565536750,"tiebreaker":false,"dest":"301248","aastatus":5,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+ready For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"seatsetup","value":{"classID":1048651,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565536750,"dest":"301248","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":21200,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301249,"timeofreg":1484565492435,"id":301249,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":21200,"id":1,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus17","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301248,"timeofreg":1484565533284,"id":301248,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}}],"ackreq":0,"playerid":0}}
+ready For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"themechange","value":{"classID":1048662,"receiverid":3201888,"theme":[{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Classic_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Classic_v1.xml","name":"Classic","id":1,"thumbimage":"https://stage-static.rummycircle.com/images/Classic_Thumb.jpg","dealtype":13},{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Standard_Blue_Table_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Standard_Blue_v1.xml","name":"Standard Blue","id":2,"thumbimage":"https://stage-static.rummycircle.com/images/Standard_Blue_Thumb.jpg","dealtype":13},{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Metropolitan_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Metropolitan_v1.xml","name":"Metropolitan","id":3,"thumbimage":"https://stage-static.rummycircle.com/images/Metropolitan_Thumb.jpg","dealtype":13},{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Clubhouse_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Clubhouse_v1.xml","name":"Clubhouse","id":4,"thumbimage":"https://stage-static.rummycircle.com/images/Clubhouse_Thumb.jpg","dealtype":13}],"id":0,"systime":1484565536750,"dest":"301248","ackreq":0,"playerid":301248}}
+ready For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"startgametimer","value":{"rejoiningplayerarray":[],"timer":6573,"classID":1048660,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565536751,"dest":"301248","ackreq":1,"playerid":301248}}
+ready For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"lpinfo","value":{"clubinfoarray":[{"classID":1048723,"tournaments":0,"clubname":"Bronze","lpsneeded":0,"qualperiod":1,"clubid":2,"rewardpoints":1,"validity":1,"bonuses":0},{"classID":1048723,"tournaments":6000,"clubname":"Silver","lpsneeded":40,"qualperiod":1,"clubid":3,"rewardpoints":1,"validity":1,"bonuses":300},{"classID":1048723,"tournaments":21000,"clubname":"Gold","lpsneeded":240,"qualperiod":1,"clubid":4,"rewardpoints":1,"validity":1,"bonuses":500},{"classID":1048723,"tournaments":36000,"clubname":"Diamond","lpsneeded":1000,"qualperiod":1,"clubid":5,"rewardpoints":1,"validity":1,"bonuses":750},{"classID":1048723,"tournaments":105000,"clubname":"Platinum","lpsneeded":2500,"qualperiod":1,"clubid":6,"rewardpoints":1,"validity":1,"bonuses":1500},{"classID":1048723,"tournaments":229600,"clubname":"Platinum Elite","lpsneeded":16000,"qualperiod":3,"clubid":7,"rewardpoints":1,"validity":6,"bonuses":3000}],"classID":1048722,"receiverid":3201888,"rptospend":50,"lptospend":50,"id":0,"systime":1484565536753,"dest":"301248","ackreq":0,"playerid":301248}}
+ready For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"hud","value":{"nextclub":7,"currentrewardpoints":0,"rmvalue":{"classID":1048740,"rmnumber":"N/A","rmemail":"N/A","rmname":"N/A"},"isfirstcashgame":false,"systime":1484565536751,"dest":"301248","viployaltypoints":240,"superuserimageurl":"","classID":1048719,"clubvalidity":"Dec, 9998","receiverid":3201888,"currentloyaltypoints":0,"currentclub":6,"isvipuser":false,"id":0,"ackreq":0,"playerid":0,"bonusvalue":{"bonuscode":"","chunkamount":0,"totalchunks":0,"entryfeeperchunk":0,"pendingbonus":{"classID":1048737,"count":0,"bonuses":[]},"chunksreleased":0,"userid":0,"classID":1048720,"bonusactive":false,"daystoexpire":0,"remainingamttoplayforcurrentchunk":0,"totalbonusamt":0,"bonusreleasedincurrentsettlement":0,"remainingbonusamount":0}}}
+ready For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+EXECUTED ACTION : ready PLAYER : 301249
+Sending Message: {"type":"ready","value":{"classID":1048603,"receiverid":3201888,"tournamentid":3201888,"sessionid":"SSIDedc6935f-46e9-4693-b3bb-5f950fa41246","id":0,"systime":1484565534002,"dest":"TE","ackreq":0,"playerid":301249}}
+#####DEFAULT TASKS FINISHED#####
+heartbeatres = 9
+aainfo = 1
+fmgresponse = 2
+disconprotectionpref = 2
+aastatus = 3
+startgametimer = 2
+handshakeresponse = 2
+buyinsucc = 2
+lpinfo = 1
+hud = 1
+setupres = 2
+autorebuyinpref = 2
+themechange = 1
+autodropcancelsuccess = 2
+seatsetup = 1
+0 : fmg : handshakeresponse
+0 : fmg : startgametimer
+0 : fmg : buyinsucc
+0 : fmg : aastatus
+0 : fmg : fmgresponse
+0 : fmg : heartbeatres
+0 : fmg : handshakeresponse
+0 : fmg : buyinsucc
+0 : fmg : fmgresponse
+0 : fmg : aastatus
+0 : fmg : heartbeatres
+0 : fmg : heartbeatres
+0 : ready : aainfo
+0 : ready : aastatus
+0 : ready : seatsetup
+0 : ready : themechange
+0 : ready : startgametimer
+0 : ready : lpinfo
+0 : ready : hud
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : setup : autodropcancelsuccess
+0 : setup : setupres
+0 : setup : disconprotectionpref
+0 : setup : autorebuyinpref
+0 : setup : heartbeatres
+0 : setup : heartbeatres
+0 : setup : autodropcancelsuccess
+0 : setup : setupres
+0 : setup : disconprotectionpref
+0 : setup : autorebuyinpref
+0 : setup : heartbeatres
+0 : setup : heartbeatres
+1 : fmg : handshakeresponse
+1 : fmg : startgametimer
+1 : fmg : buyinsucc
+1 : fmg : aastatus
+1 : fmg : fmgresponse
+1 : fmg : heartbeatres
+1 : fmg : handshakeresponse
+1 : fmg : buyinsucc
+1 : fmg : fmgresponse
+1 : fmg : aastatus
+1 : fmg : heartbeatres
+1 : fmg : heartbeatres
+1 : ready : aainfo
+1 : ready : aastatus
+1 : ready : seatsetup
+1 : ready : themechange
+1 : ready : startgametimer
+1 : ready : lpinfo
+1 : ready : hud
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : setup : autodropcancelsuccess
+1 : setup : setupres
+1 : setup : disconprotectionpref
+1 : setup : autorebuyinpref
+1 : setup : heartbeatres
+1 : setup : heartbeatres
+1 : setup : autodropcancelsuccess
+1 : setup : setupres
+1 : setup : disconprotectionpref
+1 : setup : autorebuyinpref
+1 : setup : heartbeatres
+1 : setup : heartbeatres
+RESPONSE RECEIVED : 301249 : {"type":"aainfo","value":{"aanum":1,"progressbarmax":false,"multiplier":2,"gproperty":{"sitouttimeout":30000,"middledropcfp":40,"noofcardtodeal":13,"extratimechunk":10000,"noofdeck":2,"movetime":25000,"missedmovesdrop":40,"noofdubleestobesafe21cardcfp":0,"settlementtype":1,"prizetype":1,"noofjokerstobesafe21cardcfp":0,"printedjokersperdeck":1,"blockedwords":0,"maxplayer":2,"rptplmobserver":0,"autoemail":false,"dealbetweentime":60000,"safescoreonplayerdeclaration21cardcfp":0,"mvtimefirstplayer":35000,"cardperpureseq":3,"noofjokerstodeclare21cardcfp":0,"jokertype":2,"autoplaytimeout":10000,"extratime":30000,"nooftunnelastodeclare21cardcfp":0,"observerchat":0,"tosstimeout":5000,"noofdubleestodeclare21cardcfp":0,"classID":1048681,"timebtwround":0,"fullcountcfp":80,"declaretime":35000,"maxbuyinmultiplier21cardcfp":0,"firstdropcfp":20,"maxpointvalue21cardcfp":0,"minpointvalue21cardcfp":0},"systime":1484565537749,"dest":"301249","classID":1048680,"receiverid":3201888,"rewardpointsvalue":0,"prizetype":1,"aaid":3201888,"gametype":"RUMMY","tproperty":{"typezeroentryfeelimit":25,"entryfee":0,"servicefee":0,"minbuyin":4240,"splittimeout":15000,"buyintimeout":20000,"servicefeetype":1,"countdwnstartgame":10000,"settlementtype":1,"splitallowed":false,"rejoinallowed":false,"classID":1048682,"pointvalue":53,"poolmaxscore":0,"mindropsforsplit":1,"prizetype":1,"name":"doNotUseAutomation_ptr_2_11069693","maxbuyin":42400,"maxplayer":2,"countinbtwmatch":30000,"mindealtoplay":0,"rejointimeout":20000},"id":0,"ackreq":0,"playerid":301249}}
+RESPONSE RECEIVED : 301249 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565537749,"tiebreaker":false,"dest":"301249","aastatus":5,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"seatsetup","value":{"classID":1048651,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565537750,"dest":"301249","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":21200,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301249,"timeofreg":1484565492435,"id":301249,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":21200,"id":1,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus17","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301248,"timeofreg":1484565533284,"id":301248,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}}],"ackreq":0,"playerid":0}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"themechange","value":{"classID":1048662,"receiverid":3201888,"theme":[{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Classic_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Classic_v1.xml","name":"Classic","id":1,"thumbimage":"https://stage-static.rummycircle.com/images/Classic_Thumb.jpg","dealtype":13},{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Standard_Blue_Table_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Standard_Blue_v1.xml","name":"Standard Blue","id":2,"thumbimage":"https://stage-static.rummycircle.com/images/Standard_Blue_Thumb.jpg","dealtype":13},{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Metropolitan_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Metropolitan_v1.xml","name":"Metropolitan","id":3,"thumbimage":"https://stage-static.rummycircle.com/images/Metropolitan_Thumb.jpg","dealtype":13},{"classID":1048663,"bigimage":"https://stage-static.rummycircle.com/images/Clubhouse_v1.jpg","configfile":"https://stage-static.rummycircle.com/assets/Clubhouse_v1.xml","name":"Clubhouse","id":4,"thumbimage":"https://stage-static.rummycircle.com/images/Clubhouse_Thumb.jpg","dealtype":13}],"id":0,"systime":1484565537750,"dest":"301249","ackreq":0,"playerid":301249}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"startgametimer","value":{"rejoiningplayerarray":[],"timer":5574,"classID":1048660,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565537750,"dest":"301249","ackreq":1,"playerid":301249}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"hud","value":{"nextclub":7,"currentrewardpoints":321,"rmvalue":{"classID":1048740,"rmnumber":"N/A","rmemail":"N/A","rmname":"N/A"},"isfirstcashgame":false,"systime":1484565537751,"dest":"301249","viployaltypoints":176,"superuserimageurl":"","classID":1048719,"clubvalidity":"Dec, 9998","receiverid":3201888,"currentloyaltypoints":16,"currentclub":6,"isvipuser":false,"id":0,"ackreq":0,"playerid":0,"bonusvalue":{"bonuscode":"","chunkamount":0,"totalchunks":0,"entryfeeperchunk":0,"pendingbonus":{"classID":1048737,"count":0,"bonuses":[]},"chunksreleased":0,"userid":0,"classID":1048720,"bonusactive":false,"daystoexpire":0,"remainingamttoplayforcurrentchunk":0,"totalbonusamt":0,"bonusreleasedincurrentsettlement":0,"remainingbonusamount":0}}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"lpinfo","value":{"clubinfoarray":[{"classID":1048723,"tournaments":0,"clubname":"Bronze","lpsneeded":0,"qualperiod":1,"clubid":2,"rewardpoints":1,"validity":1,"bonuses":0},{"classID":1048723,"tournaments":6000,"clubname":"Silver","lpsneeded":40,"qualperiod":1,"clubid":3,"rewardpoints":1,"validity":1,"bonuses":300},{"classID":1048723,"tournaments":21000,"clubname":"Gold","lpsneeded":240,"qualperiod":1,"clubid":4,"rewardpoints":1,"validity":1,"bonuses":500},{"classID":1048723,"tournaments":36000,"clubname":"Diamond","lpsneeded":1000,"qualperiod":1,"clubid":5,"rewardpoints":1,"validity":1,"bonuses":750},{"classID":1048723,"tournaments":105000,"clubname":"Platinum","lpsneeded":2500,"qualperiod":1,"clubid":6,"rewardpoints":1,"validity":1,"bonuses":1500},{"classID":1048723,"tournaments":229600,"clubname":"Platinum Elite","lpsneeded":16000,"qualperiod":3,"clubid":7,"rewardpoints":1,"validity":6,"bonuses":3000}],"classID":1048722,"receiverid":3201888,"rptospend":50,"lptospend":50,"id":0,"systime":1484565537753,"dest":"301249","ackreq":0,"playerid":301249}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565543345,"tiebreaker":false,"dest":"301249","aastatus":6,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+RESPONSE RECEIVED : 301248 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565543345,"tiebreaker":false,"dest":"301248","aastatus":6,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+ready For Opponent : 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"matchinfo","value":{"classID":1048726,"matchseataray":[{"amountown":0,"netvaluecardgains":0,"firstpracticegame":false,"totalscore":0,"totalgains":0,"disconprefence":0,"consmissmovecount":0,"matchplayerid":4818889,"score":0,"classID":1048727,"autodrop":false,"handcardgain":0,"recon":false,"seatid":1,"matchid":815221,"player":{"tranchrank":0,"loginid":"deepus17","lastpingreceivedtime":0,"emailid":"NA","clientvariant":0,"classID":1048728,"absoluterank":0,"idlong":0,"timeofreg":0,"id":301248,"hasplayedpracticegame":false,"hasplayed21cardpracticegame":false,"status":0}},{"amountown":0,"netvaluecardgains":0,"firstpracticegame":false,"totalscore":0,"totalgains":0,"disconprefence":0,"consmissmovecount":0,"matchplayerid":4818890,"score":0,"classID":1048727,"autodrop":false,"handcardgain":0,"recon":false,"seatid":0,"matchid":815221,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":0,"classID":1048728,"absoluterank":0,"idlong":0,"timeofreg":0,"id":301249,"hasplayedpracticegame":false,"hasplayed21cardpracticegame":false,"status":0}}],"receiverid":3201888,"id":0,"systime":1484565543353,"dest":"301248","dealno":1,"meport":0,"mpid":4818889,"ackreq":1,"matchid":815221,"playerid":301248}}
+RESPONSE RECEIVED : 301249 : {"type":"matchinfo","value":{"classID":1048726,"matchseataray":[{"amountown":0,"netvaluecardgains":0,"firstpracticegame":false,"totalscore":0,"totalgains":0,"disconprefence":0,"consmissmovecount":0,"matchplayerid":4818889,"score":0,"classID":1048727,"autodrop":false,"handcardgain":0,"recon":false,"seatid":1,"matchid":815221,"player":{"tranchrank":0,"loginid":"deepus17","lastpingreceivedtime":0,"emailid":"NA","clientvariant":0,"classID":1048728,"absoluterank":0,"idlong":0,"timeofreg":0,"id":301248,"hasplayedpracticegame":false,"hasplayed21cardpracticegame":false,"status":0}},{"amountown":0,"netvaluecardgains":0,"firstpracticegame":false,"totalscore":0,"totalgains":0,"disconprefence":0,"consmissmovecount":0,"matchplayerid":4818890,"score":0,"classID":1048727,"autodrop":false,"handcardgain":0,"recon":false,"seatid":0,"matchid":815221,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":0,"classID":1048728,"absoluterank":0,"idlong":0,"timeofreg":0,"id":301249,"hasplayedpracticegame":false,"hasplayed21cardpracticegame":false,"status":0}}],"receiverid":3201888,"id":0,"systime":1484565543353,"dest":"301249","dealno":1,"meport":0,"mpid":4818890,"ackreq":1,"matchid":815221,"playerid":301249}}
+4818889 #####mplayerID for Player : 0
+815221 #####MatchId for Player : 0
+4818890 #####mplayerID for Player : 1
+815221 #####MatchId for Player : 1
+4818889 #####mplayerID for Player : 0
+815221 #####MatchId for Player : 0
+4818890 #####mplayerID for Player : 1
+815221 #####MatchId for Player : 1
+Message Received by All :1 : 301248 : matchinfo
+matchinfo FOR PLAYER 0 Pass
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :2 : 301249 : matchinfo
+matchinfo FOR PLAYER 1 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"plrdisconnect","value":{"gameid":-1,"classID":1048634,"receiverid":3201888,"id":0,"systime":1484565543354,"dest":"301249","ackreq":0,"matchid":815221,"playerid":[]}}
+ready For Player Turn: 2 : 301249 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":0,"id":0,"systime":1484565543358,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"tosscard","value":{"gameid":1377879,"classID":1048666,"receiverid":3201888,"id":0,"systime":1484565543359,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0,"tosscardarry":[{"gameid":1377879,"classID":1048667,"cardid":"10h","mplayerid":4818889},{"gameid":1377879,"classID":1048667,"cardid":"4s","mplayerid":4818890}]}}
+1377879 #####GameID for Player : 1
+Message Received by All :2 : 301249 : tosscard
+tosscard FOR PLAYER 1 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"tosswinner","value":{"gameid":1377879,"classID":1048668,"receiverid":3201888,"id":0,"systime":1484565543359,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818889}}
+#####TOSSWINNER :4818889
+Message Received by All :2 : 301249 : tosswinner
+tosswinner FOR PLAYER 1 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":1,"id":0,"systime":1484565543359,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"gmsetup","value":{"gameid":1377879,"maxdeal":1,"systime":1484565543361,"starttime":1484565544357,"dest":"301249","isfirstpracticegame":false,"movenumber":1,"classID":1048715,"receiverid":3201888,"currdeal":1,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : gmsetup
+RESPONSE RECEIVED : 301248 : {"type":"plrdisconnect","value":{"gameid":-1,"classID":1048634,"receiverid":3201888,"id":0,"systime":1484565543354,"dest":"301248","ackreq":0,"matchid":815221,"playerid":[]}}
+ready For Opponent : 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":0,"id":0,"systime":1484565543358,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"tosscard","value":{"gameid":1377879,"classID":1048666,"receiverid":3201888,"id":0,"systime":1484565543359,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0,"tosscardarry":[{"gameid":1377879,"classID":1048667,"cardid":"10h","mplayerid":4818889},{"gameid":1377879,"classID":1048667,"cardid":"4s","mplayerid":4818890}]}}
+1377879 #####GameID for Player : 0
+Message Received by All :1 : 301248 : tosscard
+tosscard FOR PLAYER 0 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"tosswinner","value":{"gameid":1377879,"classID":1048668,"receiverid":3201888,"id":0,"systime":1484565543359,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818889}}
+#####TOSSWINNER :4818889
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :1 : 301248 : tosswinner
+tosswinner FOR PLAYER 0 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":1,"id":0,"systime":1484565543359,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"gmsetup","value":{"gameid":1377879,"maxdeal":1,"systime":1484565543361,"starttime":1484565544357,"dest":"301248","isfirstpracticegame":false,"movenumber":1,"classID":1048715,"receiverid":3201888,"currdeal":1,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : gmsetup
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":2,"id":0,"systime":1484565550373,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":2,"id":0,"systime":1484565550373,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : gmstatus
+Message Received by All :2 : 301249 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"playerseq","value":{"gameid":1377879,"orderedmplayerids":[4818889,4818890],"classID":1048630,"receiverid":3201888,"id":0,"systime":1484565550374,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"dealer","value":{"gameid":1377879,"classID":1048702,"receiverid":3201888,"id":0,"systime":1484565550374,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818890}}
+Message Received by All :2 : 301249 : dealer
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :1 : 301248 : playerseq
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"closeddecksize","value":{"gameid":1377879,"classID":1048700,"receiverid":3201888,"size":78,"id":0,"systime":1484565550374,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : closeddecksize
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"dealer","value":{"gameid":1377879,"classID":1048702,"receiverid":3201888,"id":0,"systime":1484565550374,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818890}}
+Message Received by All :1 : 301248 : dealer
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"closeddecksize","value":{"gameid":1377879,"classID":1048700,"receiverid":3201888,"size":78,"id":0,"systime":1484565550374,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : closeddecksize
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"opncard","value":{"gameid":1377879,"classID":1048617,"receiverid":3201888,"cardid":"5h","id":0,"systime":1484565550374,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"jkrcard","value":{"gameid":1377879,"classID":1048725,"receiverid":3201888,"cardid":"3s","id":0,"systime":1484565550374,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : jkrcard
+RESPONSE RECEIVED : 301249 : {"type":"jkrcard","value":{"gameid":1377879,"classID":1048725,"receiverid":3201888,"cardid":"3s","id":0,"systime":1484565550374,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : jkrcard
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"opncard","value":{"gameid":1377879,"classID":1048617,"receiverid":3201888,"cardid":"5h","id":0,"systime":1484565550374,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"plrhandcard","value":{"gameid":1377879,"classID":1048635,"topgroupscount":0,"receiverid":3201888,"cards":[["11s","11s","8c","12s","9s","13d","3h","1d","6s","8s","6c","12c","j"]],"id":0,"systime":1484565550375,"dest":"301249","ackreq":0,"matchid":815221,"playerid":301249}}
+RESPONSE RECEIVED : 301248 : {"type":"plrhandcard","value":{"gameid":1377879,"classID":1048635,"topgroupscount":0,"receiverid":3201888,"cards":[["9d","11c","6s","12c","2h","4c","13h","9h","2s","11c","8d","1h","9s"]],"id":0,"systime":1484565550375,"dest":"301248","ackreq":0,"matchid":815221,"playerid":301248}}
+#########DisCard : 9d
+#########DisCard : 11s
+9d : ######CARD ID THAT SHOULD BE DISCARDED FOR PLAYER : 0
+11s : ######CARD ID THAT SHOULD BE DISCARDED FOR PLAYER : 1
+Message Received by All :2 : 301249 : plrhandcard
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :1 : 301248 : plrhandcard
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"discards","value":{"gameid":1377879,"classID":1048707,"receiverid":3201888,"cards":["5h"],"id":0,"systime":1484565550376,"dest":"301249","mpid":0,"ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"discards","value":{"gameid":1377879,"classID":1048707,"receiverid":3201888,"cards":["5h"],"id":0,"systime":1484565550376,"dest":"301248","mpid":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : discards
+Message Received by All :1 : 301248 : discards
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"playerseq","value":{"gameid":1377879,"orderedmplayerids":[4818889,4818890],"classID":1048630,"receiverid":3201888,"id":0,"systime":1484565550374,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : playerseq
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":3,"id":0,"systime":1484565555393,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":3,"id":0,"systime":1484565555393,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :1 : 301248 : gmstatus
+RESPONSE RECEIVED : 301249 : {"type":"plrmove","value":{"gameid":1377879,"moveno":1,"gracetime":10000,"systime":1484565555393,"movetime":35000,"dest":"301249","mplayerid":4818889,"classID":1048636,"receiverid":3201888,"totalgracetime":30000,"isfirstmove":true,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+--------------------------------------------------------------------------------------------------------------------
+#####Turn :1 : PlayerIndex : 1
+#####Turn :2 : PlayerIndex : 2
+#####START GAME#####
+RESPONSE RECEIVED : 301248 : {"type":"plrmove","value":{"gameid":1377879,"moveno":1,"gracetime":10000,"systime":1484565555393,"movetime":35000,"dest":"301248","mplayerid":4818889,"classID":1048636,"receiverid":3201888,"totalgracetime":30000,"isfirstmove":true,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : plrmove
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :2 : 301249 : plrmove
+--------------------------------------------------------------------------------------------------------------------
+ 
+Executed Action : pickdeck For Player : 301248
+Sending Message: {"type":"pickc","value":{"classID":1048600,"receiverid":3201888,"tournamentid":3201888,"mid":815221,"id":0,"systime":1484565551764,"mpid":4818889,"ackreq":0,"playerid":301248}}
+RESPONSE RECEIVED : 301248 : {"type":"pickcres","value":{"gameid":1377879,"classID":1048625,"receiverid":3201888,"cardid":"13d","id":0,"systime":1484565555510,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"opppickc","value":{"gameid":1377879,"classID":1048622,"receiverid":3201888,"id":0,"systime":1484565555510,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818889}}
+ 
+Executed Action : discard For Player : 301248
+######CARD ID Actually DISCARDED : 9d
+Sending Message: {"type":"discard","value":{"classID":1048587,"receiverid":3201888,"cardid":"9d","tournamentid":3201888,"mid":815221,"id":0,"systime":1484565554762,"mpid":4818889,"ackreq":0,"playerid":301248}}
+RESPONSE RECEIVED : 301248 : {"type":"discardres","value":{"gameid":1377879,"classID":1048706,"receiverid":3201888,"cardid":"9d","id":0,"systime":1484565558509,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"oppdiscard","value":{"gameid":1377879,"classID":1048619,"receiverid":3201888,"cardid":"9d","id":0,"systime":1484565558509,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818889}}
+RESPONSE RECEIVED : 301248 : {"type":"plrmove","value":{"gameid":1377879,"moveno":1,"gracetime":10000,"systime":1484565558510,"movetime":25000,"dest":"301248","mplayerid":4818890,"classID":1048636,"receiverid":3201888,"totalgracetime":30000,"isfirstmove":false,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : plrmove
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"plrmove","value":{"gameid":1377879,"moveno":1,"gracetime":10000,"systime":1484565558510,"movetime":25000,"dest":"301249","mplayerid":4818890,"classID":1048636,"receiverid":3201888,"totalgracetime":30000,"isfirstmove":false,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : plrmove
+--------------------------------------------------------------------------------------------------------------------
+ 
+Executed Action : pickdeck For Player : 301249
+Sending Message: {"type":"pickc","value":{"classID":1048600,"receiverid":3201888,"tournamentid":3201888,"mid":815221,"id":0,"systime":1484565557761,"mpid":4818890,"ackreq":0,"playerid":301249}}
+RESPONSE RECEIVED : 301248 : {"type":"opppickc","value":{"gameid":1377879,"classID":1048622,"receiverid":3201888,"id":0,"systime":1484565561509,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818890}}
+RESPONSE RECEIVED : 301249 : {"type":"pickcres","value":{"gameid":1377879,"classID":1048625,"receiverid":3201888,"cardid":"3h","id":0,"systime":1484565561509,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+ 
+Executed Action : discard For Player : 301249
+######CARD ID Actually DISCARDED : 11s
+Sending Message: {"type":"discard","value":{"classID":1048587,"receiverid":3201888,"cardid":"11s","tournamentid":3201888,"mid":815221,"id":0,"systime":1484565560761,"mpid":4818890,"ackreq":0,"playerid":301249}}
+RESPONSE RECEIVED : 301248 : {"type":"oppdiscard","value":{"gameid":1377879,"classID":1048619,"receiverid":3201888,"cardid":"11s","id":0,"systime":1484565564508,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0,"mplayerid":4818890}}
+RESPONSE RECEIVED : 301249 : {"type":"discardres","value":{"gameid":1377879,"classID":1048706,"receiverid":3201888,"cardid":"11s","id":0,"systime":1484565564508,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"plrmove","value":{"gameid":1377879,"moveno":2,"gracetime":10000,"systime":1484565564509,"movetime":25000,"dest":"301248","mplayerid":4818889,"classID":1048636,"receiverid":3201888,"totalgracetime":30000,"isfirstmove":false,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"plrmove","value":{"gameid":1377879,"moveno":2,"gracetime":10000,"systime":1484565564509,"movetime":25000,"dest":"301249","mplayerid":4818889,"classID":1048636,"receiverid":3201888,"totalgracetime":30000,"isfirstmove":false,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :1 : 301248 : plrmove
+Message Received by All :2 : 301249 : plrmove
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+ 
+Executed Action : leave For Player : 301248
+Sending Message: {"type":"leavetable","value":{"gameid":1377879,"classID":1048598,"receiverid":3201888,"tournamentid":3201888,"sessionid":"SSID92fb7513-c837-4c6a-8fbf-a80c038376a7","id":0,"systime":1484565563763,"dest":"TE","ackreq":0,"matchid":815221,"playerid":301248,"mplayerid":4818889}}
+RESPONSE RECEIVED : 301248 : {"type":"dropres","value":{"gameid":1377879,"systime":1484565567512,"dest":"301248","message":"","point":40,"result":1,"classID":1048710,"receiverid":3201888,"mdrop":1,"id":0,"ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"oppdrop","value":{"gameid":1377879,"classID":1048620,"receiverid":3201888,"mdrop":1,"id":0,"systime":1484565567512,"dest":"301249","ackreq":0,"point":40,"matchid":815221,"playerid":0,"mplayerid":4818889}}
+RESPONSE RECEIVED : 301249 : {"type":"scorewindow","value":{"gameid":1377879,"classID":1048648,"receiverid":3201888,"scorewindow":[{"result":"Dropped","score":40,"classID":1048649,"topgroupscount":0,"cards":[],"handcardgain":0,"id":301248,"message":"","username":"deepus17","mplayerid":4818889},{"result":"Winner","score":0,"classID":1048649,"topgroupscount":0,"cards":[],"handcardgain":0,"id":301249,"message":"","username":"deepus18","mplayerid":4818890}],"lastdeal":false,"id":0,"systime":1484565567514,"dest":"301249","ackreq":0,"matchid":815221,"dealnumber":1,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"playerscores","value":{"gameid":1377879,"scorelist":[{"score":40,"classID":1048629,"loginid":"deepus17","totalscore":40,"mplayerid":4818889,"playerid":301248},{"score":0,"classID":1048629,"loginid":"deepus18","totalscore":0,"mplayerid":4818890,"playerid":301249}],"classID":1048628,"receiverid":3201888,"mid":815221,"id":0,"systime":1484565567514,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"scorewindow","value":{"gameid":1377879,"classID":1048648,"receiverid":3201888,"scorewindow":[{"result":"Dropped","score":40,"classID":1048649,"topgroupscount":0,"cards":[],"handcardgain":0,"id":301248,"message":"","username":"deepus17","mplayerid":4818889},{"result":"Winner","score":0,"classID":1048649,"topgroupscount":0,"cards":[],"handcardgain":0,"id":301249,"message":"","username":"deepus18","mplayerid":4818890}],"lastdeal":false,"id":0,"systime":1484565567514,"dest":"301248","ackreq":0,"matchid":815221,"dealnumber":1,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"playerscores","value":{"gameid":1377879,"scorelist":[{"score":40,"classID":1048629,"loginid":"deepus17","totalscore":40,"mplayerid":4818889,"playerid":301248},{"score":0,"classID":1048629,"loginid":"deepus18","totalscore":0,"mplayerid":4818890,"playerid":301249}],"classID":1048628,"receiverid":3201888,"mid":815221,"id":0,"systime":1484565567514,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":4,"id":0,"systime":1484565569533,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"gmstatus","value":{"gameid":1377879,"classID":1048716,"receiverid":3201888,"statusid":4,"id":0,"systime":1484565569533,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+Message Received by All :2 : 301249 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+Message Received by All :1 : 301248 : gmstatus
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"closeconnection","value":{"gameid":1377879,"classID":1048699,"receiverid":3201888,"mid":0,"id":0,"systime":1484565569534,"dest":"301249","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"closeconnection","value":{"gameid":1377879,"classID":1048699,"receiverid":3201888,"mid":0,"id":0,"systime":1484565569534,"dest":"301248","ackreq":0,"matchid":815221,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565569595,"tiebreaker":false,"dest":"301248","aastatus":7,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+RESPONSE RECEIVED : 301249 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565569595,"tiebreaker":false,"dest":"301249","aastatus":7,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+leave For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+leave For Opponent : 2 : 301249 Fail
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"amountwon","value":{"classID":1048686,"receiverid":3201888,"amountownlist":[{"classID":1048687,"amount":-2120,"loginid":"deepus17","totalscore":40,"mpid":4818889,"userid":301248,"tablebal":19080},{"classID":1048687,"amount":2120,"loginid":"deepus18","totalscore":0,"mpid":4818890,"userid":301249,"tablebal":23320}],"lastdeal":false,"id":0,"systime":1484565569596,"dest":"301248","ackreq":0,"matchid":815221,"playerid":-1}}
+RESPONSE RECEIVED : 301249 : {"type":"amountwon","value":{"classID":1048686,"receiverid":3201888,"amountownlist":[{"classID":1048687,"amount":-2120,"loginid":"deepus17","totalscore":40,"mpid":4818889,"userid":301248,"tablebal":19080},{"classID":1048687,"amount":2120,"loginid":"deepus18","totalscore":0,"mpid":4818890,"userid":301249,"tablebal":23320}],"lastdeal":false,"id":0,"systime":1484565569596,"dest":"301249","ackreq":0,"matchid":815221,"playerid":-1}}
+RESPONSE RECEIVED : 301248 : {"type":"playerupdate","value":{"classID":1048631,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565569597,"dest":"301248","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":23320,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301249,"timeofreg":1484565492435,"id":301249,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":40,"autodrop":false,"seatplayerbalance":19080,"id":1,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus17","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301248,"timeofreg":1484565533284,"id":301248,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}}],"ackreq":0,"playerid":0}}
+RESPONSE RECEIVED : 301249 : {"type":"playerupdate","value":{"classID":1048631,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565569597,"dest":"301249","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":23320,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301249,"timeofreg":1484565492435,"id":301249,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":40,"autodrop":false,"seatplayerbalance":19080,"id":1,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus17","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301248,"timeofreg":1484565533284,"id":301248,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}}],"ackreq":0,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"seatsetup","value":{"classID":1048651,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565569602,"dest":"301248","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":23320,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301249,"timeofreg":1484565492435,"id":301249,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":0,"id":1,"seatedout":false,"state":0}],"ackreq":0,"playerid":0}}
+leave For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"seatsetup","value":{"classID":1048651,"receiverid":3201888,"aaid":3201888,"id":0,"systime":1484565569602,"dest":"301249","seats":[{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":23320,"id":0,"seatedout":false,"state":2,"player":{"tranchrank":0,"loginid":"deepus18","lastpingreceivedtime":0,"emailid":"NA","clientvariant":2,"classID":1048633,"absoluterank":0,"idlong":301249,"timeofreg":1484565492435,"id":301249,"hasplayedpracticegame":true,"hasplayed21cardpracticegame":false,"status":0}},{"classID":1048632,"playerscore":0,"autodrop":false,"seatplayerbalance":0,"id":1,"seatedout":false,"state":0}],"ackreq":0,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"plrdisconnect","value":{"gameid":-1,"classID":1048634,"receiverid":3201888,"id":0,"systime":1484565569603,"dest":"301248","ackreq":0,"matchid":815221,"playerid":[]}}
+leave For Opponent : 2 : 301249 Fail
+--------------------------------------------------------------------------------------------------------------------
+leave For Player Turn: 1 : 301248 Fail
+RESPONSE RECEIVED : 301249 : {"type":"plrdisconnect","value":{"gameid":-1,"classID":1048634,"receiverid":3201888,"id":0,"systime":1484565569603,"dest":"301249","ackreq":0,"matchid":815221,"playerid":[]}}
+leave For Opponent : 2 : 301249 Fail
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565569604,"tiebreaker":false,"dest":"301249","aastatus":4,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":0}}
+RESPONSE RECEIVED : 301248 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565569604,"tiebreaker":false,"dest":"301248","aastatus":4,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":0}}
+leave For Opponent : 2 : 301249 Fail
+--------------------------------------------------------------------------------------------------------------------
+leave For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301249 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565569605,"tiebreaker":false,"dest":"301249","aastatus":4,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+leave For Opponent : 2 : 301249 Fail
+--------------------------------------------------------------------------------------------------------------------
+RESPONSE RECEIVED : 301248 : {"type":"aastatus","value":{"roundnumber":0,"systime":1484565569605,"tiebreaker":false,"dest":"301248","aastatus":4,"dealnumber":0,"classID":1048683,"receiverid":3201888,"aaid":3201888,"maxplayer":2,"id":0,"ackreq":0,"playerid":-1}}
+leave For Player Turn: 1 : 301248 Pass
+--------------------------------------------------------------------------------------------------------------------
+ 
+Executed Action : leave For Player : 301249
+Sending Message: {"type":"leavetable","value":{"gameid":1377879,"classID":1048598,"receiverid":3201888,"tournamentid":3201888,"sessionid":"SSIDedc6935f-46e9-4693-b3bb-5f950fa41246","id":0,"systime":1484565566761,"dest":"TE","ackreq":0,"matchid":815221,"playerid":301249,"mplayerid":4818890}}
+#####ALL TASKS FINISHED#####
+#####SHUTTING DOWN#####
+Closing connection for Player :301248
+onClose() - statusCode: 1001 & reason: Shutdown
+Closing connection for Player :301249
+onClose() - statusCode: 1001 & reason: Shutdown
+aainfo = 2
+jkrcard = 2
+opppickc = 2
+disconprotectionpref = 2
+tosswinner = 2
+pickcres = 2
+aastatus = 12
+closeddecksize = 2
+startgametimer = 3
+matchinfo = 2
+closeconnection = 2
+opncard = 2
+lpinfo = 2
+oppdrop = 1
+setupres = 2
+discards = 2
+playerupdate = 2
+dropres = 1
+autodropcancelsuccess = 2
+seatsetup = 4
+heartbeatres = 75
+playerscores = 2
+oppdiscard = 2
+fmgresponse = 2
+plrdisconnect = 4
+plrhandcard = 2
+discardres = 2
+handshakeresponse = 2
+gmsetup = 2
+buyinsucc = 2
+amountwon = 2
+scorewindow = 2
+playerseq = 2
+hud = 2
+gmstatus = 10
+tosscard = 2
+autorebuyinpref = 2
+dealer = 2
+plrmove = 6
+themechange = 2
+0 : fmg : handshakeresponse
+0 : fmg : startgametimer
+0 : fmg : buyinsucc
+0 : fmg : aastatus
+0 : fmg : fmgresponse
+0 : fmg : heartbeatres
+0 : fmg : handshakeresponse
+0 : fmg : buyinsucc
+0 : fmg : fmgresponse
+0 : fmg : aastatus
+0 : fmg : heartbeatres
+0 : fmg : heartbeatres
+0 : discard : heartbeatres
+0 : discard : discardres
+0 : discard : oppdiscard
+0 : discard : plrmove
+0 : discard : plrmove
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : oppdiscard
+0 : discard : discardres
+0 : discard : plrmove
+0 : discard : plrmove
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : discard : heartbeatres
+0 : ready : aainfo
+0 : ready : aastatus
+0 : ready : seatsetup
+0 : ready : themechange
+0 : ready : startgametimer
+0 : ready : lpinfo
+0 : ready : hud
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : aainfo
+0 : ready : aastatus
+0 : ready : seatsetup
+0 : ready : themechange
+0 : ready : startgametimer
+0 : ready : hud
+0 : ready : lpinfo
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : aastatus
+0 : ready : aastatus
+0 : ready : matchinfo
+0 : ready : matchinfo
+0 : ready : plrdisconnect
+0 : ready : gmstatus
+0 : ready : tosscard
+0 : ready : tosswinner
+0 : ready : gmstatus
+0 : ready : plrdisconnect
+0 : ready : gmstatus
+0 : ready : tosscard
+0 : ready : gmsetup
+0 : ready : tosswinner
+0 : ready : gmstatus
+0 : ready : gmsetup
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : gmstatus
+0 : ready : gmstatus
+0 : ready : dealer
+0 : ready : playerseq
+0 : ready : closeddecksize
+0 : ready : dealer
+0 : ready : closeddecksize
+0 : ready : opncard
+0 : ready : jkrcard
+0 : ready : jkrcard
+0 : ready : opncard
+0 : ready : plrhandcard
+0 : ready : plrhandcard
+0 : ready : discards
+0 : ready : discards
+0 : ready : playerseq
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : heartbeatres
+0 : ready : gmstatus
+0 : ready : gmstatus
+0 : ready : plrmove
+0 : leave : heartbeatres
+0 : leave : dropres
+0 : leave : oppdrop
+0 : leave : scorewindow
+0 : leave : playerscores
+0 : leave : scorewindow
+0 : leave : playerscores
+0 : leave : heartbeatres
+0 : leave : heartbeatres
+0 : leave : heartbeatres
+0 : leave : heartbeatres
+0 : leave : gmstatus
+0 : leave : gmstatus
+0 : leave : closeconnection
+0 : leave : closeconnection
+0 : leave : aastatus
+0 : leave : aastatus
+0 : leave : amountwon
+0 : leave : amountwon
+0 : leave : playerupdate
+0 : leave : playerupdate
+0 : leave : seatsetup
+0 : leave : seatsetup
+0 : leave : plrdisconnect
+0 : leave : plrdisconnect
+0 : leave : aastatus
+0 : leave : aastatus
+0 : leave : aastatus
+0 : leave : aastatus
+0 : leave : heartbeatres
+0 : leave : heartbeatres
+0 : setup : autodropcancelsuccess
+0 : setup : setupres
+0 : setup : disconprotectionpref
+0 : setup : autorebuyinpref
+0 : setup : heartbeatres
+0 : setup : heartbeatres
+0 : setup : autodropcancelsuccess
+0 : setup : setupres
+0 : setup : disconprotectionpref
+0 : setup : autorebuyinpref
+0 : setup : heartbeatres
+0 : setup : heartbeatres
+0 : pickdeck : plrmove
+0 : pickdeck : heartbeatres
+0 : pickdeck : pickcres
+0 : pickdeck : opppickc
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : opppickc
+0 : pickdeck : pickcres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+0 : pickdeck : heartbeatres
+1 : fmg : handshakeresponse
+1 : fmg : startgametimer
+1 : fmg : buyinsucc
+1 : fmg : aastatus
+1 : fmg : fmgresponse
+1 : fmg : heartbeatres
+1 : fmg : handshakeresponse
+1 : fmg : buyinsucc
+1 : fmg : fmgresponse
+1 : fmg : aastatus
+1 : fmg : heartbeatres
+1 : fmg : heartbeatres
+1 : discard : heartbeatres
+1 : discard : discardres
+1 : discard : oppdiscard
+1 : discard : plrmove
+1 : discard : plrmove
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : oppdiscard
+1 : discard : discardres
+1 : discard : plrmove
+1 : discard : plrmove
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : discard : heartbeatres
+1 : ready : aainfo
+1 : ready : aastatus
+1 : ready : seatsetup
+1 : ready : themechange
+1 : ready : startgametimer
+1 : ready : lpinfo
+1 : ready : hud
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : aainfo
+1 : ready : aastatus
+1 : ready : seatsetup
+1 : ready : themechange
+1 : ready : startgametimer
+1 : ready : hud
+1 : ready : lpinfo
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : aastatus
+1 : ready : aastatus
+1 : ready : matchinfo
+1 : ready : matchinfo
+1 : ready : plrdisconnect
+1 : ready : gmstatus
+1 : ready : tosscard
+1 : ready : tosswinner
+1 : ready : gmstatus
+1 : ready : plrdisconnect
+1 : ready : gmstatus
+1 : ready : tosscard
+1 : ready : gmsetup
+1 : ready : tosswinner
+1 : ready : gmstatus
+1 : ready : gmsetup
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : gmstatus
+1 : ready : gmstatus
+1 : ready : dealer
+1 : ready : playerseq
+1 : ready : closeddecksize
+1 : ready : dealer
+1 : ready : closeddecksize
+1 : ready : opncard
+1 : ready : jkrcard
+1 : ready : jkrcard
+1 : ready : opncard
+1 : ready : plrhandcard
+1 : ready : plrhandcard
+1 : ready : discards
+1 : ready : discards
+1 : ready : playerseq
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : heartbeatres
+1 : ready : gmstatus
+1 : ready : gmstatus
+1 : ready : plrmove
+1 : leave : heartbeatres
+1 : leave : dropres
+1 : leave : oppdrop
+1 : leave : scorewindow
+1 : leave : playerscores
+1 : leave : scorewindow
+1 : leave : playerscores
+1 : leave : heartbeatres
+1 : leave : heartbeatres
+1 : leave : heartbeatres
+1 : leave : heartbeatres
+1 : leave : gmstatus
+1 : leave : gmstatus
+1 : leave : closeconnection
+1 : leave : closeconnection
+1 : leave : aastatus
+1 : leave : aastatus
+1 : leave : amountwon
+1 : leave : amountwon
+1 : leave : playerupdate
+1 : leave : playerupdate
+1 : leave : seatsetup
+1 : leave : seatsetup
+1 : leave : plrdisconnect
+1 : leave : plrdisconnect
+1 : leave : aastatus
+1 : leave : aastatus
+1 : leave : aastatus
+1 : leave : aastatus
+1 : leave : heartbeatres
+1 : leave : heartbeatres
+1 : setup : autodropcancelsuccess
+1 : setup : setupres
+1 : setup : disconprotectionpref
+1 : setup : autorebuyinpref
+1 : setup : heartbeatres
+1 : setup : heartbeatres
+1 : setup : autodropcancelsuccess
+1 : setup : setupres
+1 : setup : disconprotectionpref
+1 : setup : autorebuyinpref
+1 : setup : heartbeatres
+1 : setup : heartbeatres
+1 : pickdeck : plrmove
+1 : pickdeck : heartbeatres
+1 : pickdeck : pickcres
+1 : pickdeck : opppickc
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : opppickc
+1 : pickdeck : pickcres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres
+1 : pickdeck : heartbeatres

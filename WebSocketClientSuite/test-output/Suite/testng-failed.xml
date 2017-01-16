@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="entryFee" value="21200"/>
+  <parameter name="fmgOnTable" value="false"/>
+  <parameter name="interimTableSettlement" value="false"/>
+  <parameter name="prizeType" value="1"/>
+  <parameter name="ipAddress" value="0"/>
+  <parameter name="destination" value="TE"/>
+  <parameter name="excludeTableId" value="0"/>
+  <parameter name="clientvariant" value="2"/>
+  <parameter name="sessionId" value="SSIDca6cb90c-6c4e-4b50-98e5-a08e6c38d6c7"/>
+  <parameter name="mpid" value="0"/>
+  <parameter name="url" value="wss://10.14.24.146:8442"/>
+  <parameter name="noOfPlayer" value="2"/>
+  <parameter name="receiverID" value="0"/>
+  <parameter name="prizePerPoint" value="53"/>
+  <parameter name="includeInProgress" value="1"/>
+  <parameter name="oldTableId" value="0"/>
+  <parameter name="emptyTable" value="true"/>
+  <parameter name="formatType" value="100"/>
+  <parameter name="playerID" value="301259"/>
+  <test name="FMGTest(failed)">
+    <classes>
+      <class name="com.rummycircle.com.tests.FMGTest">
+        <methods>
+          <include name="createConnection"/>
+          <include name="fmgTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rummycircle.com.tests.FMGTest -->
+    </classes>
+  </test> <!-- FMGTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
